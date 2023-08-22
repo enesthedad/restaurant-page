@@ -1,14 +1,20 @@
 import createRestaurantPage from "./restaurant";
 import createMenu from './menuPage';
 import createAbout from './aboutPage';
+import getLocation from "./location";
 
 
 const createButtons=()=>{
     const mainContainer = document.getElementById('content');
+    const navbar = document.getElementById('navbar');
     const btn1 = document.createElement('button');
     const btn2 = document.createElement('button');
     const btn3 = document.createElement('button');
-    
+    const logo= document.createElement('div');
+    const btnContainer = document.createElement('div');
+    btnContainer.setAttribute('id','button-container');
+    logo.setAttribute('id','logo');
+    logo.textContent=`{PiZZa}`;
     btn1.id='button-1';
     btn2.id='button-2';
     btn3.id='button-3';
@@ -18,10 +24,11 @@ const createButtons=()=>{
     btn1.classList.add('btn');
     btn2.classList.add('btn');
     btn3.classList.add('btn');
-    mainContainer.appendChild(btn1);
-    mainContainer.appendChild(btn2);
-    mainContainer.appendChild(btn3);
-
+    navbar.appendChild(logo);
+    btnContainer.appendChild(btn1);
+    btnContainer.appendChild(btn2);
+    btnContainer.appendChild(btn3);
+    navbar.appendChild(btnContainer);
 
     btn1.addEventListener('click',()=>{
         removePage();
@@ -36,6 +43,7 @@ const createButtons=()=>{
     btn3.addEventListener('click',()=>{
         removePage();
         createAbout();
+        getLocation();
     })
 
 }
