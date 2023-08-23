@@ -20,9 +20,9 @@ const createMenu = ()=>{
     <h2 class='pizza-header'>Margarita</h2>
     <img class='pizza-img' src='https://images.pexels.com/photos/2608049/pexels-photo-2608049.jpeg?auto=compress&cs=tinysrgb&w=1600'>
     <p class='pizza-text'>
-    <span class='introduce-text-header'>🍕 Discover Pizza Perfection with Our Margherita Delight! 🌿</span>
+    <span class='introduce-text-header'>Discover Pizza Perfection with Our Margherita Delight! 🌿</span>
     <span class='introduce-text'>
-Introducing the Margherita Pizza, a timeless classic that captures the essence of Italian culinary tradition.
+    🍕Introducing the Margherita Pizza, a timeless classic that captures the essence of Italian culinary tradition.
 </span>
 <span class='introduce-text'>
 🍅 Tomato Splendor: Experience the burst of sun-kissed tomatoes, harmonizing flawlessly with our tangy tomato sauce.
@@ -50,10 +50,10 @@ Introducing the Margherita Pizza, a timeless classic that captures the essence o
     <img class='pizza-img' src='https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>
     <p class='pizza-text'>
     <span class='introduce-text-header'>
-    🍕 Elevate Your Cravings with Our Irresistible Pepperoni Pizza! 🌶️
+    🌶️Elevate Your Cravings with Our Irresistible Pepperoni Pizza! 
     </span>
     <span class='introduce-text'>
-Introducing the Pepperoni Pizza, a symphony of flavors that ignites your taste buds with every bite.
+    🍕Introducing the Pepperoni Pizza, a symphony of flavors that ignites your taste buds with every bite.
 </span>
 <span class='introduce-text'>
 🍅 Bold Tomato Kick: Our zesty tomato sauce provides the perfect canvas for the starring act of savory pepperoni.
@@ -78,9 +78,9 @@ Introducing the Pepperoni Pizza, a symphony of flavors that ignites your taste b
     dinnerDiv3.innerHTML=`
     <h2 class='pizza-header'>Eggplant and spinach</h2>
     <img class='pizza-img' src='https://images.pexels.com/photos/1437812/pexels-photo-1437812.jpeg?auto=compress&cs=tinysrgb&w=1600'>
-    <p  class='pizza-text'><span class='introduce-text-header'>🍆 Introducing Our Delectable Eggplant Pizza! 🍕</span>
+    <p  class='pizza-text'><span class='introduce-text-header'>🍆 Introducing Our Delectable Eggplant Pizza! </span>
     <span class='introduce-text'>
-    Indulge in a slice of pure innovation with our Eggplant Pizza. Crafted to perfection, this culinary masterpiece redefines pizza enjoyment.
+    🍕Indulge in a slice of pure innovation with our Eggplant Pizza. Crafted to perfection, this culinary masterpiece redefines pizza enjoyment.
     </span>
     <span class ='introduce-text'>
     🌱 Fresh Twist: Our handpicked eggplant slices serve as a nutritious and flavorful crust alternative.
@@ -106,11 +106,11 @@ Introducing the Pepperoni Pizza, a symphony of flavors that ignites your taste b
     <img class='pizza-img' src='https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>
     <p class='pizza-text'>
     <span class='introduce-text-header'>
-    🌿 Embark on a Flavorful Journey with Our Olive Garden Pizza! 🍕
+    🌿 Embark on a Flavorful Journey with Our Olive Garden Pizza! 
     </span>
 
     <span class='introduce-text'>
-Introducing the Olive Garden Pizza, a culinary adventure that transports you to the heart of Mediterranean indulgence.
+    🍕Introducing the Olive Garden Pizza, a culinary adventure that transports you to the heart of Mediterranean indulgence.
 </span>
 
 <span class='introduce-text'>
@@ -140,11 +140,11 @@ Introducing the Olive Garden Pizza, a culinary adventure that transports you to 
     <img class='pizza-img' src='https://images.pexels.com/photos/6072095/pexels-photo-6072095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>
     <p class='pizza-text'>
     <span class='introduce-text-header'>
-    🇮🇹 Embark on a Flavorful Journey to Italy with Our Authentic Italian Pizza! 🍕
+    🇮🇹 Embark on a Flavorful Journey to Italy with Our Authentic Italian Pizza! 
     </span>
 
     <span class='introduce-text'>
-Introducing the Italian Pizza, a culinary masterpiece that pays homage to the rich traditions and vibrant flavors of Italy.
+    🍕Introducing the Italian Pizza, a culinary masterpiece that pays homage to the rich traditions and vibrant flavors of Italy.
 </span>
 
 <span class='introduce-text'>
@@ -175,10 +175,10 @@ Introducing the Italian Pizza, a culinary masterpiece that pays homage to the ri
     <img class='pizza-img' src='https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&w=1600'>
     <p class='pizza-text'>
     <span class='introduce-text-header'>
-🌈 Experience a Flavorful Journey with Our Vibrant Rainbow Pizza! 🍕
+🌈 Experience a Flavorful Journey with Our Vibrant Rainbow Pizza! 
 </span>
 <span class='introduce-text'>
-Introducing the Rainbow Pizza, a feast for the eyes and the palate that brings a burst of color to your dining table.
+🍕Introducing the Rainbow Pizza, a feast for the eyes and the palate that brings a burst of color to your dining table.
 </span>
 <span class='introduce-text'>
 🍅 Tomato Canvas: Our zesty tomato sauce sets the stage for a spectrum of flavors that are as beautiful as they are delicious.
