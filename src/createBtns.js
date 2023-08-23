@@ -45,6 +45,10 @@ const createButtons=()=>{
         createAbout();
         getLocation();
     })
+    logo.addEventListener('click',()=>{
+        removePage();
+        createRestaurantPage();
+    })
 
 }
 const removePage=()=>{
