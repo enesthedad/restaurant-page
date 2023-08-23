@@ -78,8 +78,7 @@ Introducing the Pepperoni Pizza, a symphony of flavors that ignites your taste b
     dinnerDiv3.innerHTML=`
     <h2 class='pizza-header'>Eggplant and spinach</h2>
     <img class='pizza-img' src='https://images.pexels.com/photos/1437812/pexels-photo-1437812.jpeg?auto=compress&cs=tinysrgb&w=1600'>
-    <p  class='pizza-text'>
-    <span class='introduce-text-header'>🍆 Introducing Our Delectable Eggplant Pizza! 🍕</span>
+    <p  class='pizza-text'><span class='introduce-text-header'>🍆 Introducing Our Delectable Eggplant Pizza! 🍕</span>
     <span class='introduce-text'>
     Indulge in a slice of pure innovation with our Eggplant Pizza. Crafted to perfection, this culinary masterpiece redefines pizza enjoyment.
     </span>

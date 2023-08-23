@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .page-content{
     padding: 20px;
@@ -84,6 +85,9 @@ color:ghostwhite;
 font-size: 1.5em;
 margin: 1em 0;
 }
+.pizza-text{
+    padding: 1em;
+}
 .pizza-header{
 color:ghostwhite;
 font-size: 2.5em;
@@ -91,6 +95,7 @@ margin: 1em 0;
 text-transform:uppercase ;
 }
 .pizza-img{
+    
     border-radius: 1em;
     width: 30em;
     height: 30em;
@@ -209,8 +214,8 @@ text-transform:uppercase ;
         margin: 2em auto;
     }
     .pizza-img{
-        width: 15em;
-        height: 15em;
+        width: 35em;
+        height: 35em;
         
     }
 }
