@@ -1,14 +1,21 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
+  "repository": {
+    "url": "git@github.com:enesthedad/restaurant-page.git"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   }
